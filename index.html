@@ -1,100 +1,121 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- icon links -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.min.css" integrity="sha512-Rcr1oG0XvqZI1yv1HIg9LgZVDEhf2AHjv+9AuD1JXWGLzlkoKDVvE925qySLcEywpMAYA/rkg296MkvqBF07Yw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css" integrity="sha512-lCU0XyQA8yobR7ychVxEOU5rcxs0+aYh/9gNDLaybsgW9hdrtqczjfKVNIS5doY0Y5627/+3UVuoGv7p8QsUFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/solid.min.css" integrity="sha512-WTx8wN/JUnDrE4DodmdFBCsy3fTGbjs8aYW9VDbW8Irldl56eMj8qUvI3qoZZs9o3o8qFxfGcyQocUY0LYZqzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/regular.min.css" integrity="sha512-lQP1BiSutAy+g9L+bDr1v9758SFLCJ1fK+6tXzu5M22G7/pigzb+01L31Cu1TUlWYr3lnQ4XQVmQfnpTZVW1Og==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- icon link end -->
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  </head>
-  <body>
-    <style>
-        .form-contact{
-            padding-left: 20%;
-            padding-right: 20%;
-            padding-top: 5%;
-        }
-
-        #exampleFormControlInput1 bg-dark::placeholder{
-            color: blue;
-        }
-    </style>
-<!-- NavBar Start -->
-<nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid" style="padding-left: 40%;">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Neighborhood</a>
-          </li>
-          <a href="#"><button class="btn btn-outline-success me-2" type="button" style="outline: none;">Contact Us</button></a>
-          </div>
-        </ul>
-      </div>
-    </div>
-  </nav>
-<!-- NavBar End -->
-     <p class="h1" style="text-align: center; margin-top:2%;">GET IN TOUCH</p>
-     <p class="h6" style="text-align: center; margin-top:2%;"><i class="fa-solid fa-phone"></i> Phone: +234 802 222 5582</p>
-     <p class="h6" style="text-align: center; margin-top:2%;"><i class="fa-regular fa-envelope"></i> Email: info@praimhomes.com</p>
-     <p class="h6" style="text-align: center; margin-top:2%;"><i class="fa-sharp fa-solid fa-location-dot"></i> Address: 138 Adenko street Galadimawa Abuja</p>
-    <!-- start of form -->
-    <form action="https://formsubmit.co/ochiaghakella15@gmail.com" method="POST">
-
-        <!-- honeypot -->
-        <input type="text" name="_honey" style="display: none;">
-        <!-- Honey Pot End -->
-
-        <!-- Disable Captcha -->
-        <input type="hidden" name="_captcha" value="false">
-        <!-- Disable Captcha end -->
-
-        <input type="hidden" name="_next" value="https://kellbie.github.io/Praim-Homes-ContactUs-Page/success.html">
-
-    <div class="form-contact">
-    <div class="mb-3">
-        <address for="exampleFormControlInput1" class="form-label ">First Name</label>
-        <input type="text" class="form-control bg-dark" id="exampleFormControlInput1" placeholder="First Name" style="color: white;" required name="First&nbsp;Name">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label ">Last Name</label>
-        <input type="text" class="form-control bg-dark" id="exampleFormControlInput1" placeholder="Last Name" style="color: white;" required name="Last&nbsp;Name">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label ">Email address</label>
-        <input type="email" class="form-control bg-dark" id="exampleFormControlInput1" placeholder="name@example.com" style="color: white;" required name="Email&nbsp;Address">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label ">Phone Number</label>
-        <input type="tel" class="form-control bg-dark" id="exampleFormControlInput1" placeholder="0801-2345-678" style="color: white;" required name="Phone&nbsp;Number">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-        <textarea class="form-control bg-dark" id="exampleFormControlTextarea1" rows="5" style="color: white;" required name="Message"></textarea>
-      </div>
-      <button class="btn btn-dark" style="padding-left: 5%; padding-right: 5%; margin-left: 42%; outline: none;" type="submit">Submit</button>
-    </div>
-    </form>
-    <!-- end of form -->        
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-  </body>
+    <link rel="stylesheet" href="cool.css" type="text/css">
+    <link rel="shortcut icon" href="Praim-Logo-Clear.png" type="image/x-icon">
+    <title>Praim Homes</title>
+</head>
+<body onload="myFunction()">
+    <header>
+       <nav class="navbar-top">
+            <div  class="nav">
+                <ul>
+                    <li class="navitem"><a href="" style="color: #dc643d;">Home</a></li>
+                    <li class="navitem"><a href="">About us</a></li>
+                    <li class="navitem"><a href="">Blog</a></li>
+                    <li class="navitem"><a href="#page5">Neighbourhood</a></li>
+                    <li><a href="contact-us.html"><button class="nav-button-list" style="margin-left: 20%;">Contact Us</button></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <main>
+            <div class="page1">
+                <img src="Praim Second Logo.jpg" height="10%" width="15%" style="margin-top: -50%; margin-left: -22%; margin-bottom: 8%;">
+                <div class="page1-content">
+                    
+                    <h1 class="page1-content2"><span class="different">Different and </span><span class="page1-span-better"> Better</span></h1>
+                    <p class="longwriteup">We offer exclusive properties that match your budget. Our Praim property at Katampe extension Abuja, is a place you want to make a home.</p>
+                </div>
+                <div class="page1-buttons">
+                    <button class="page1-buttons-view">Lets Talk</button>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section class="page2">
+        <div class="page2-container">
+            <div class="page2-container-text">
+                <h1>Your <span style="color: rgb(158, 134, 0)">Neighbourhood</span> in a Glance</h1>
+                <p style="color: grey;" class="write-up-second-page">We carefully selected our current hot location-Katempe Extention with you in mind. For your comfort and security, we have considered landed property free from Governrment and Community hassles. With structured road network,  well mapped-out recreational amenities and indepenent Electricity and Solar systems, our properties are fast selling. Do you worry about your budget?, reach out, our flexible schedule will ease your fears.</p>
+                <button class="page1-buttons-view">We Can Help You</button>
+            </div>
+            <div class="page2-container-img-kitchen">
+                <video src="Katampe-extension.mp4" autoplay class="second-page-video" id="first-vid"></video>
+            </div>
+        </div>
+    </section>
+       
+    <section class="page3">
+        <div class="page3-head">
+            <h2>We Set The Record</h2>
+        </div>
+        <div class="page3-container">
+            <div class="page3-container-row1">
+                <h1>123+</h1>
+                <h2>Happy Clients</h2>
+            </div>
+            <div class="page3-container-row3">
+                <h1>237</h1>
+                <h2>Properties Sold</h2>
+            </div>
+            <div class="page3-container-row4">
+                <h1>100,000</h1>
+                <h2>Square Meter</h2>
+            </div>
+        </div>
+    </section>
+    <section class="page4">
+        <div class="page4-container">
+            <div class="page4-head">
+                <h1 class="Enablers"><span class="Your-color">Your </span>Choice, <span class="we-are">We are only </span><span class="real-enablers">Enablers</span></h1>
+                <p class="whole-page4-text">Ready, We would walk you through the ropes as we take a bold leap towards making your dream home a reality. Do not worry, We can accommodate yor budget</p>
+            </div>
+            <div class="page4-img-row">
+                <div class="page4-img1">
+                </div>
+                <div class="page4-img2">
+                </div>
+                <div class="page4-img3">
+                </div>
+                <div class="page4-img4">
+                </div>
+            </div>
+            <div class="page4-select-button">
+                <button class="page4-button-view">Request Site Inspection</button>
+            </div>
+        </div>
+    </section> 
+    <section class="page5" id="page5">
+        <div class="page5-container">
+            <div class="page5-text">
+                <h2 class="neighbourhood">Your Neighbourhood</h2>
+                <p class="neighbourhood">How about owning a home in an environment as serene and prime as this.<p2>
+                <p class="neighbourhood">We would work tirelessly to help you achieve your dream home<p2>
+            </div>
+            <div class="page5-img">
+                <div class="page5-img-left">
+                </div>
+                <div class="page5-img-center">
+                </div>
+                <div class="page5-img-right">
+                </div>
+            </div>
+            <div class="page5-button">
+                <button class="page5-button-explore">Book A Visit</button>
+            </div>
+        </div>
+    </section> 
+    <script src="cool.js"></script>
+</body>
 </html>
